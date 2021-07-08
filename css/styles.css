@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: var(--primary-text-color);
 }
@@ -17,7 +17,7 @@ body {
 /* Логотип */
 .logo {
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
   font-size: 26px;
   line-height: 1.2;
@@ -192,4 +192,53 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: var(--footer-contacts-list);
+}
+
+/* Портфолио */
+
+/* Фильтр */
+.portfolio-button-list {
+  list-style: none;
+}
+
+.portfolio-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--second-background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-text);
+  background-color: var(--accent-color);
+}
+
+/* Проекты */
+.portfolio-examples {
+  list-style: none;
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
