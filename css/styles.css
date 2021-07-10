@@ -165,6 +165,7 @@ body {
 /* Адрес */
 .address-section {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 .address-list {
   list-style: none;
