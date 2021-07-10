@@ -65,7 +65,9 @@ body {
   color: var(--accent-color);
 }
 /* Герой */
-
+.hero {
+  background-color: var(--footer-background-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -142,7 +144,7 @@ body {
 .team-positions {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 0.03em;
 }
