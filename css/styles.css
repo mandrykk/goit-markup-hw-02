@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   background-color: #fff;
   color: var(--primary-text-color);
 }
@@ -163,11 +163,13 @@ body {
   color: var(--accent-color);
 }
 /* Адрес */
-.adress-list {
+.address-section {
+  font-family: 'Roboto', sans-serif;
+}
+.address-list {
   list-style: none;
 }
-.adress-map {
-  font-family: 'Roboto';
+.address-map {
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -175,8 +177,7 @@ body {
   line-height: 1.7;
   color: var(--white-text);
 }
-.adress-mail {
-  font-family: 'Roboto';
+.address-mail {
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -184,8 +185,7 @@ body {
   line-height: 1.7;
   color: var(--footer-contacts-list);
 }
-.adress-tel {
-  font-family: 'Roboto';
+.address-tel {
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.03em;
